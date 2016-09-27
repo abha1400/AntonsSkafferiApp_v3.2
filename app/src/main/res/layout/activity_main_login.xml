@@ -10,6 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.mobile.antonsskafferiapp_v32.MainLogin">
 
+<<<<<<< HEAD
     <Button
         android:text="Logga In"
         android:layout_width="wrap_content"
@@ -45,4 +46,10 @@
         android:maxLines="1"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
+=======
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+>>>>>>> origin/master
 </RelativeLayout>
