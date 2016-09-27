@@ -26,9 +26,10 @@ public class MainLogin extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(ePin.getText().toString().equals("1234")){
-                    Intent myIntent = new Intent(v.getContext(), table.class);
-                    startActivityForResult(myIntent, 0);
-                //  Intent intent = new intent("");
+                    Toast.makeText(getApplicationContext(), "Rätt pin-kod", Toast.LENGTH_SHORT). show();
+
+                    Intent myIntent = new Intent(MainLogin.this, select_table.class);
+                    startActivity(myIntent);
 
                 }
                 else{

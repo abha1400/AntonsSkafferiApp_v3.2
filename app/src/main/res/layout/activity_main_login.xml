@@ -8,31 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.mobile.antonsskafferiapp_v32.MainLogin">
-
-<<<<<<< HEAD
-    <Button
-        android:text="Logga In"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/Pin_id"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="12dp"
-        android:id="@+id/bLogin"
-        android:onClick="login"
-        tools:ignore="HardcodedText" />
-
-    <TextView
-        android:text="Pin kod"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        android:layout_marginTop="59dp"
-        android:textSize="24sp"
-        tools:ignore="HardcodedText"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textStyle="normal|bold|italic" />
+    tools:context="com.example.mobile.antonsskafferiapp_v32.MainLogin"
+    tools:ignore="ExtraText">
 
     <EditText
         android:layout_width="wrap_content"
@@ -46,10 +23,27 @@
         android:maxLines="1"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
-=======
+
     <TextView
+        android:text="Pin kod"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
->>>>>>> origin/master
+        android:id="@+id/textView"
+        android:layout_marginTop="134dp"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText,UnknownId"
+        android:textStyle="normal|bold|italic"
+        android:layout_below="@+id/test"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Logga In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/bLogin"
+        android:onClick="login"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/Pin_id"
+        android:layout_alignStart="@+id/textView" />
 </RelativeLayout>
