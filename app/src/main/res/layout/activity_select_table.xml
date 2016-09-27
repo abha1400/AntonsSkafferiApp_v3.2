@@ -20,6 +20,7 @@
         android:textSize="30sp"
         tools:ignore="HardcodedText" />
 
+
     <Button
         android:text="Logga ut"
         android:layout_width="wrap_content"
